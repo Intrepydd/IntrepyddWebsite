@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Alexandre Allard - Portfolio</title>
+      <meta name="description" content="FREELANCER"/>
+      <meta name="keywords" content="DÉVELOPPEUR, GRAPHISTE, JEU VIDÉO, WEB DESIGNER"/>
+      <meta name="author" content="Intrepydd"/>
+      <meta http-equiv="Resource-Type" content="document">
+	  
+      <!-- Basic Page Needs  -->
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="author" content="">
+		
+      <!-- CSS -->		
+      <link rel="stylesheet" type="text/css" href="css/icons.hover.css" />
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/jquery.vegas.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="images/favicon.png">
+      
+	  <!-- Scripts -->
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>	
+      <script type="text/javascript" src="js/jquery.vegas.min.js"></script>
+      <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+      <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>	
+      <script type="text/javascript" src="js/main.js"></script>
+	  <!--[if IE]>
+      <script type="text/javascript">
+         var console = { log: function() {} };
+      </script>
+      <![endif]-->
+	  
+   </head>
+   <body>
+      <div class="preloader"></div>
+	  <div class="directionNav disable" ><a class="prevNav" title="Previous">Précédent</a><a class="nextNav" title="Next">Suivant</a></div>
+	  <!-- section1 -->		
+	  <div class="section" id="section1">
+         <div class="headerlabel linebg">
+           <h2>A┘EXANDRE ALLARD</h2>
+         </div>
+
+         <div class="headerlabel linebg">VOUS TROUVEREZ ICI TOUT SUR MOI</div>
+         <div class="continue bottom bounce">
+            <a  href="#" onclick="$.fn.fullpage.moveSectionDown();;return false;">		
+				<span class="custom-icon fa-stack fa-2x ">
+					<i class="fa fa-circle fa-stack-2x" style="color:rgba(0, 0, 0, 0.2)"></i>
+					<i class="fa fa-angle-down fa-stack-1x" ></i>
+				</span>
+            </a>
+         </div>
+      </div>
+	  <!-- end section1 -->	
+      
+	  <!-- section2 -->		
+	  <div class="section " id="section2">
+         
+		 <!-- GET IN TOUCH (CONTATCT FORM)-->		
+		 <div class="slide "  data-anchor="GetInTouch">
+            <div class="wrapper">
+               <div id="main">
+                  <div id="result"></div>
+                  <form id="contact-form" action="http://Intrepydd.com" method="post" onsubmit="return false;">
+                     <div class="headerlabel linebg">
+                        <h2>ME CONTACTER</h2>
+                     </div>
+                     <div>
+                        <input placeholder="NOM" name="nom" id="nom" type="text" tabindex="1" required="required">
+                     </div>
+                     <div>
+                        <input placeholder="COURRIEL" name="email" id="email" type="email" tabindex="2" required="required">
+                     </div>
+                     <div>
+                        <textarea placeholder="VOTRE QUESTION" name="message" id="message" tabindex="5" required="required"></textarea>
+                     </div>
+                     <div>
+                        <div class="headerlabel linebg"><button name="submit" type="submit" id="contact-submit" >ENVOYER</button></div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         
+		 <!-- BE CREATIVE (MENU) -->	
+		 <div class="slide" data-anchor="BeCreative">
+            <div class="headerlabel linebg"	>
+               <h2 style="margin:10px;">FREELANCER</h2>
+            </div>
+            <a href="#" onclick="$.fn.fullpage.moveSlideLeft();return false;">
+               <div class=" custom-icon-effect custom-icon-effecta">
+                  <span class="custom-icon fa-stack fa-4x ">
+                  <i class="fa  fa-quote-left fa-stack-1x cred" style="font-size:.75em;" ></i>
+                  </span>
+               </div>
+            </a>
+            <a href="#" onclick="$.fn.fullpage.moveSectionUp();return false;">
+               <div class=" custom-icon-effect custom-icon-effecta">
+                  <span class="custom-icon fa-stack fa-4x ">
+                  <i class="fa  fa-clock-o fa-stack-1x cred" ></i>
+                  </span>
+               </div>
+            </a>
+            <a href="#" onclick="$.fn.fullpage.moveSlideRight();return false;">
+               <div class=" custom-icon-effect custom-icon-effecta">
+                  <span class="custom-icon fa-stack fa-4x ">
+                  <i class="fa fa-map-marker fa-stack-1x cred" ></i>
+                  </span>
+               </div>
+            </a>
+            <div class="headerlabel linebg"><label>DÉVELOPPEUR WEB - SYSADMIN</label></div>
+         </div>
+         
+		 <!-- CONTACT US INFO -->	
+		 <div class="slide"  data-anchor="ContactUs">
+            <div class="headerlabel linebg"	>
+               <h2 style="margin:10px;">INFORMATIONS UTILES</h2>
+            </div>
+            <div class="contactinfo">
+               <p>
+                  <label><i class="fa fa-share-square "></i>   Courriel@Intrepydd.com</label>
+               </p>
+               <p>
+                  <label><i class="fa fa-map-marker" ></i>  Montréal, Québec, Canada</label>
+               </p>
+               <p>
+                  <label><i class="fa fa-phone-square"></i>  (+1) 514-365-6021</label>
+               </p>
+            </div>
+            <div class="headerlabel linebg">
+				<div class="socialicons">	
+					 <!-- Facebook Url -->
+					<a href="https://www.facebook.com/profile.php?id=100004260918821">
+					   <div class=" custom-icon-effect custom-icon-effecta">
+						  <span class="custom-icon fa-stack fa-lg ">
+						  <i class="fa fa-facebook fa-stack-1x cred" ></i>
+						  </span>
+					   </div>
+					</a>
+					 <!-- Twitter Url -->
+					<a href="http://twitter.com/Intrepydd">
+					   <div class=" custom-icon-effect custom-icon-effecta">
+						  <span class="custom-icon fa-stack fa-lg ">
+						  <i class="fa fa-twitter fa-stack-1x cred" ></i>
+						  </span>
+					   </div>
+					</a>
+					 <!-- Google+ Url -->
+					<a href="http://youtube.com/user/Intrepydd">
+					   <div class=" custom-icon-effect custom-icon-effecta">
+						  <span class="custom-icon fa-stack fa-lg ">
+						  <i class="fa fa-youtube fa-stack-1x cred" ></i>
+						  </span>
+					   </div>
+					</a>
+				</div>
+			</div>
+         </div>
+      </div>
+	  <!-- end section2 -->	
+
+      <script  type="text/javascript">
+		$(window).load(function(){
+			$('.preloader').fadeOut(1000);
+		});
+      </script>
+   </body>
+
+</html>
